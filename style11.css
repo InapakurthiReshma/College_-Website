@@ -1,0 +1,36 @@
+.register{
+	text-align: center;
+	border-radius: initial;
+	background-color: whitesmoke;
+	background-position: initial;
+	background-size: cover;
+	position: relative;
+	border-width: thick;
+	/*background-image: linear-gradient(rgba(5, 4, 20, 0.6),rgba(5, 4, 20, 0.6)),url(clg.jpg);*/
+   padding: 5px 5px 10px 12px;
+   border-style: solid;
+}
+.register h2{
+         
+ color: skyblue;
+ position: center;
+ font-family: sans-serif;
+ font-weight: 500vh;
+}
+
+.location iframe{
+	width: 50%;
+}
+.space{
+	border-width: thick;
+	border-image-outset: initial;
+	text-align: left;
+	border-style:ridge;
+	width: 100px;
+	height: 100px;
+	padding: 5px 5px 10px 12px;
+}
+.head h2{
+	text-align: center;
+	position: center;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>form validation</title>
+	<script type="text/javascript">
+	function validateform(){
+		var firstname=document.myform.firstname.value;
+		var lastname=document.myform.lastname.value;
+		var fathername=document.myform.fathername.value;
+		var Email=document.myform.Email.value;
+		var password=document.myform.password.value;
+		if (firstname==null || firstname==""){
+			alert("name can't be blank");
+			return false;
+		}
+		else if (lastname==null || lastname==""){
+			alert("name cant be blank");
+			return false;
+		}
+		else if(fathername==null || fathername==""){
+			alert("name cant be blank");
+			return false;
+		}
+		else if(password.length<6){
+			alert("password must be least 6 characters long.")
+			return false;
+		}
+
+		}
+	</script>
+<body>
+<form name="myform" method="post" action="abc.jsp" onsubmit="return validateform()">
+	firstname:<input type="text" name="firstname">
+	lastname:<input type="text" name="lastname"><br>
+	fathername:<input type="text" name="fathername"><br>
+	email:<input type="email" name="email"><br>
+	password:<input type="password" name="password"><br>
+</form>
+</body>
+</html>

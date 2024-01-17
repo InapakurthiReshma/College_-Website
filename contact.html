@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>university</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2? family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="sub_header">
+		<nav>
+			<a href="clgg.html"><img src="education.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="clgg.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="course.html">COURSE</a></li>
+					<li><a href="login.html">LOGIN</a></li>
+					<li><a href="notification.html">NOTIFICATIONS</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>CONTACT US</h1>
+		
+	</section>
+	<section class="location">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30408.57414063782!2d82.98017386219146!3d17.694069525298143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3970d40f7ea039%3A0x1b149268d4586096!2sAnakapalle%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1646512371425!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	</section>
+	<section class="contact-us">
+		<div class="row">
+			<div class="contact-col">
+				<div>
+					<i class="fa fa-home"></i>
+					<span>
+						<h5>POST OFFICE STREET,1-69</h5>
+						<p>West godavari,Andhra pradesh</p>
+					</span>
+				</div>
+				<div>
+					<i class="fa fa-phone"></i>
+					<span>
+						<h5>+91 9160120204</h5>
+						<p>monday to saturday 9AM to 5PM</p>
+					</span>
+				</div>
+				<div>
+					<i class="fa fa-envelope-o"></i>
+					<span>
+						<h5>siril78893@gmail.com</h5>
+						<p>email as your query</p>
+					</span>
+				</div>
+			</div>
+			<div class="contact-col">
+				<form action="form.php" method="post">
+					<input type="text" name="name" placeholder="Enter your name" required>
+					<input type="email" name="email" placeholder="Enter your email" required>
+					<input type="text" name="query" placeholder="Enter your query" required>
+					<textarea rows="10" name="Message" placeholder="Message" required></textarea>
+					<button type="submit" class="button btn">Send Message</button>
+				</form>
+			
+		</div>
+		</div>
+	</section>
+	<section class="footer">
+		<h4>About us</h4>
+		<p>OSMANIA UNIVERSITY the university of changing your life.<br>Dr.krishna organized the university with talanted professors with each and every branch skilled faculty.avaiable lab facilities and available sports and enviromental structure and also canteen falities availabilty of hostel facilites with boys and girls. the whole campus would looking greenish and peaceful enviromental culutre. lot of students settle in lot of placements and getting a good packages.</p>
+	</section>
+	<script>
+		var navLinks = document.getElementByid("navLinks");
+		function showMenu(){
+		   navLinks.style.right= "0";
+		}
+		function hideMenu(){
+			navLinks.style.right= "-200px";
+		}
+	</script>
+
+</body>
+</html>
